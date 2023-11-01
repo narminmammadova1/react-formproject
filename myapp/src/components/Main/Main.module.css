@@ -1,0 +1,70 @@
+input{
+    width: 50%;
+border-radius: 8px;
+height: 30px;
+border: 1px solid black;
+padding-left: 10px;
+}
+.mainDiv{
+    /* background-color: peru; */
+    margin-top: 20px;
+    display: flex;
+   
+}
+.inputDiv{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+    margin-left: 20px;
+
+}
+.tableDiv{
+    /* background-color: blueviolet; */
+    width: 50%;
+   
+}
+table{
+    border:2px solid black;
+    width: 70%;
+}
+
+td, tr, th {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+
+  .addBtn{
+    width: 50%;
+    border-radius: 8px;
+    height: 30px;
+    background-color: red;
+    color: wheat;
+  }
+.shareBtn{
+    width: 50%;
+    border-radius: 8px;
+    height: 30px;
+    background-color: rgb(11, 68, 25);
+    color: wheat;
+
+}
+
+  Button:disabled {
+background-color: rgb(189, 115, 115);    cursor: not-allowed;
+  }
+  textarea{
+    width: 50%;
+    font-size: 16px;
+  }
+  .delBtn{background-color: red;
+border-radius: 5px;
+margin-left: 10px;}
+.delTd{
+    display: flex;
+    flex-direction: row;
+}
+.shareBtn:disabled{
+background-color: rgb(107, 128, 86);}
