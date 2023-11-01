@@ -57,6 +57,8 @@ console.log("value",value);
 
 inputRef.current.value=""
 inputRef.current.focus()
+setMessage("")
+
 
 }
 //  console.log("data",data);
